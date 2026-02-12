@@ -60,12 +60,12 @@
   onScroll();
 
   // ----- Reveal on scroll
-  const reveals = document.querySelectorAll(".reveal, .reveal-item");
+  const reveals = document.querySelectorAll(".reveal, .reveal-item, .reveal-up, .reveal-fade, .reveal-scale, .reveal-blur, .reveal-left, .reveal-right");
   const revealObserver = new IntersectionObserver(
     function (entries) {
       entries.forEach(function (entry) {
         if (!entry.isIntersecting) return;
-        entry.target.classList.add("in");
+        entry.target.classList.add("active");
         revealObserver.unobserve(entry.target);
       });
     },
