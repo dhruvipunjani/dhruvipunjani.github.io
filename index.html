@@ -31,9 +31,11 @@
   <main>
     <section class="hero" id="hero">
       <div class="hero-bg">
+        <img src="assets/stock-market-forex-trading-graph_73426-259.avif" alt="Market Background" class="hero-bg-img">
+        <div class="hero-overlay"></div>
         <div class="grid-overlay"></div>
-        <div class="market-chart-line" aria-hidden="true"></div>
       </div>
+      
       <div class="container hero-inner">
         <div class="hero-content">
           <p class="hero-label">Finance • Analysis • Strategy</p>
@@ -41,8 +43,12 @@
             <span class="line">Dhruvi</span>
             <span class="line">Punjani</span>
           </h1>
-          <p class="hero-tagline">Wealth Management & Investment Analysis</p>
-          <p class="hero-desc">Finance professional focused on fundamental equity research, portfolio strategy, and asset allocation. Committed to delivering data-driven insights for long-term wealth creation.</p>
+          
+          <div class="hero-text-block">
+            <p>I don't just analyze companies—I understand them.</p>
+            <p>Aspiring equity researcher committed to value investing principles and deep fundamental analysis.</p>
+          </div>
+          
           <div class="hero-actions">
             <a href="#projects" class="btn btn-primary">Research & Projects</a>
             <a href="#contact" class="btn btn-outline">Connect</a>
@@ -67,30 +73,16 @@
         <h2 class="section-title"><span class="section-num">01</span> About</h2>
         <div class="about-grid">
           <div class="about-text">
-            <p class="about-lead">Finance student at FLAME University with a focus on investment management and analysis.</p>
-            <p>I specialize in financial modelling, equity valuation, and market research. My academic and professional background is built on understanding market dynamics and assessing asset value. I am currently pursuing the CFA charter to further specialize in portfolio management and investment analysis.</p>
-            <p><strong>CFA Level 2 Candidate</strong> (Level 1 Cleared) • <strong>FLAME Merit Scholar</strong></p>
+            <p>I'm a final-year BBA (Hons) Finance student with a deep fascination for understanding what makes businesses truly valuable. While most see financial statements as numbers, I see them as stories waiting to be uncovered—stories about competitive advantages, management quality, and long-term potential.</p>
+            <p>My approach to investing is rooted in value investing principles, inspired by the philosophies of Warren Buffett and Charlie Munger. I don't just ask what a company does—I dig deeper to understand why it succeeds, how it creates value, and where it might be headed. Whether it's dissecting annual reports late into the night or building financial models for case competitions, I'm driven by genuine curiosity about how businesses work.</p>
+            <p>Through academic projects including equity research reports, stock pitch competitions, and financial modeling assignments, I've developed a rigorous analytical framework. I'm currently pursuing CFA Level 2, constantly sharpening my skills to transition from student to analyst. I'm seeking opportunities where I can contribute fresh perspectives and grow alongside experienced investment professionals.</p>
           </div>
           
-          <div class="strategy-grid">
-            <div class="strat-box">
-              <span class="strat-icon">⟲</span>
-              <span class="strat-label">Macro View</span>
-            </div>
-            <div class="strat-box">
-              <span class="strat-icon">⩔</span>
-              <span class="strat-label">Deep Dive</span>
-            </div>
-            <div class="strat-box">
-              <span class="strat-icon">∑</span>
-              <span class="strat-label">Valuation</span>
-            </div>
-            <div class="strat-box">
-              <span class="strat-icon">✎</span>
-              <span class="strat-label">Thesis</span>
-            </div>
-            <div class="strat-center">
-              <span>ALPHA</span>
+          <div class="quote-container">
+            <div class="quote-card">
+              <div class="quote-icon">99</div>
+              <p class="quote-text">Price is what you pay. Value is what you get.</p>
+              <div class="quote-author">— Warren Buffett</div>
             </div>
           </div>
         </div>
@@ -170,7 +162,11 @@
             <div class="candle-content">
               <h3>Finance Writer Intern</h3>
               <p class="company">Rigi</p>
-              <div class="tags"><span>Creative Writing</span><span>Financial Analysis</span><span>Market Research</span></div>
+              <div class="exp-tags">
+                <span>Creative Writing</span>
+                <span>Financial Analysis</span>
+                <span>Market Research</span>
+              </div>
               <ul>
                 <li>Conducted in-depth market research and analyzed financial data to produce insightful content about market trends.</li>
                 <li>Researched companies, performance, and USPs to craft detailed scripts for investor audiences.</li>
@@ -188,7 +184,11 @@
             <div class="candle-content">
               <h3>Finance Intern</h3>
               <p class="company">Aditya Finoptions</p>
-              <div class="tags"><span>Financial Planning</span><span>Client Reports</span><span>Strategy</span></div>
+              <div class="exp-tags">
+                <span>Financial Planning</span>
+                <span>Client Reports</span>
+                <span>Strategy</span>
+              </div>
               <ul>
                 <li>Researched financial instruments (bonds, mutual funds, estate planning) to analyze risks and benefits.</li>
                 <li>Used Fintso/Wealth Magic to input data and generate client reports.</li>
@@ -199,14 +199,14 @@
       </div>
     </section>
     
-    <section class="certifications reveal" id="certifications">
+<section class="certifications reveal" id="certifications">
       <div class="container">
         <h2 class="section-title"><span class="section-num">04</span> Certifications</h2>
         
         <div class="cert-normal-grid">
           
-          <a href="#" class="cert-card-normal">
-            <div class="cert-logo-box">
+          <a href="assets/reports/CFA_Level1.pdf" target="_blank" rel="noopener" class="cert-card-normal">
+            <div class="cert-logo-circle">
               <img src="assets/cfa-logo.png" alt="CFA Logo" loading="lazy">
             </div>
             <h3>CFA Program</h3>
@@ -214,11 +214,11 @@
             <p>Comprehensive understanding of asset valuation, financial reporting, and portfolio management standards. Adherence to the CFA Institute Code of Ethics.</p>
           </a>
 
-          <a href="#" class="cert-card-normal">
-            <div class="cert-logo-box">
+          <a href="assets/reports/Bloomberg_Certificate.pdf" target="_blank" rel="noopener" class="cert-card-normal">
+            <div class="cert-logo-circle">
               <img src="assets/bloomberg-logo.png" alt="Bloomberg Logo" loading="lazy">
             </div>
-            <h3>Bloomberg Market Concepts</h3>
+            <h3>Bloomberg Finance Fundamentals</h3>
             <p class="cert-subtitle">Certificate of Completion</p>
             <p>Practical application of the Bloomberg Terminal. Proficiency in analyzing economic indicators, currencies, fixed income securities, and equities.</p>
           </a>
@@ -247,8 +247,8 @@
                 <span class="project-cat">Sector Analysis</span>
                 <span class="project-year">2025</span>
               </div>
-              <div class="project-logo-box">
-                <img src="assets/rare-earths-icon.png" alt="Report Logo" class="project-logo-img">
+              <div class="project-logo-circle">
+                <img src="assets/rare-earths-icon.png" alt="Icon" class="project-logo-img">
               </div>
             </div>
             <h3>Rare Earths Elements</h3>
@@ -264,14 +264,31 @@
                 <span class="project-cat">Portfolio Management</span>
                 <span class="project-year">2024</span>
               </div>
-              <div class="project-logo-box">
-                <img src="assets/portfolio-icon.png" alt="Portfolio Logo" class="project-logo-img">
+              <div class="project-logo-circle">
+                <img src="assets/portfolio-icon.png" alt="Icon" class="project-logo-img">
               </div>
             </div>
             <h3>Custom Portfolio of 10 Stocks</h3>
             <p>Built a custom portfolio targeting specific investor profiles: <strong>26.7%</strong> annualized return, <strong>16%</strong> risk.</p>
             <div class="project-actions">
-              <a class="btn btn-chip" href="assets/reports/IA_Assignment4.xlsx" target="_blank">View Excel</a>
+              <a class="btn btn-chip" href="assets/reports/IA_Assignment4.xlsx" download>Download Excel</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal-item" data-category="portfolio">
+            <div class="project-header">
+              <div class="project-info">
+                <span class="project-cat">Mutual Fund Analysis</span>
+                <span class="project-year">2024</span>
+              </div>
+              <div class="project-logo-circle">
+                <img src="assets/portfolio-icon.png" alt="Icon" class="project-logo-img">
+              </div>
+            </div>
+            <h3>Midcap Fund Analysis</h3>
+            <p>Strategic analysis of midcap fund performance, asset allocation, and risk-adjusted returns.</p>
+            <div class="project-actions">
+              <a class="btn btn-chip" href="assets/reports/Midcap_Fund.xlsx" download>Download Excel</a>
             </div>
           </article>
 
@@ -281,8 +298,8 @@
                 <span class="project-cat">Financial Presentation</span>
                 <span class="project-year">2024</span>
               </div>
-              <div class="project-logo-box">
-                <img src="assets/netweb-logo.png" alt="Netweb Logo" class="project-logo-img">
+              <div class="project-logo-circle">
+                <img src="assets/netweb-logo.png" alt="Netweb" class="project-logo-img">
               </div>
             </div>
             <h3>Netweb Technologies</h3>
@@ -298,8 +315,8 @@
                 <span class="project-cat">Equity Research</span>
                 <span class="project-year">2024</span>
               </div>
-              <div class="project-logo-box">
-                <img src="assets/tata-logo.png" alt="Tata Logo" class="project-logo-img">
+              <div class="project-logo-circle">
+                <img src="assets/tata-logo.png" alt="Tata" class="project-logo-img">
               </div>
             </div>
             <h3>Tata Elxsi Research Report</h3>
@@ -315,14 +332,14 @@
                 <span class="project-cat">Ratio Analysis</span>
                 <span class="project-year">2024</span>
               </div>
-              <div class="project-logo-box">
-                <img src="assets/indigo-logo.png" alt="Indigo Logo" class="project-logo-img">
+              <div class="project-logo-circle">
+                <img src="assets/indigo-logo.png" alt="Indigo" class="project-logo-img">
               </div>
             </div>
             <h3>Indigo Paints</h3>
             <p>Detailed ratio analysis and interpretation of financial health metrics.</p>
             <div class="project-actions">
-              <a class="btn btn-chip" href="assets/reports/Ratio_Analysis_Indigo_Paints.pdf" target="_blank">View PDF</a>
+              <a class="btn btn-chip" href="assets/reports/Ratio_Analysis_Indigo_Paints.xlsx" target="_blank">Download Excel</a>
             </div>
           </article>
 
@@ -331,8 +348,8 @@
               <div class="project-info">
                 <span class="project-cat">Presentation</span>
               </div>
-              <div class="project-logo-box">
-                <img src="assets/cochin-logo.png" alt="Cochin Logo" class="project-logo-img">
+              <div class="project-logo-circle">
+                <img src="assets/cochin-logo.png" alt="Cochin" class="project-logo-img">
               </div>
             </div>
             <h3>Cochin Shipyard</h3>
@@ -347,8 +364,8 @@
               <div class="project-info">
                 <span class="project-cat">Book Review</span>
               </div>
-              <div class="project-logo-box">
-                <img src="assets/book-icon.png" alt="Book Logo" class="project-logo-img">
+              <div class="project-logo-circle">
+                <img src="assets/book-icon.png" alt="Book" class="project-logo-img">
               </div>
             </div>
             <h3>Fooled by Randomness</h3>
@@ -363,8 +380,8 @@
               <div class="project-info">
                 <span class="project-cat">Accounting</span>
               </div>
-              <div class="project-logo-box">
-                <img src="assets/cost-icon.png" alt="Cost Logo" class="project-logo-img">
+              <div class="project-logo-circle">
+                <img src="assets/cost-icon.png" alt="Cost" class="project-logo-img">
               </div>
             </div>
             <h3>Cost Sheet Preparation</h3>
@@ -379,14 +396,14 @@
               <div class="project-info">
                 <span class="project-cat">Macro Analysis</span>
               </div>
-              <div class="project-logo-box">
-                <img src="assets/bond-icon.png" alt="Bond Logo" class="project-logo-img">
+              <div class="project-logo-circle">
+                <img src="assets/bond-icon.png" alt="Bond" class="project-logo-img">
               </div>
             </div>
             <h3>Government Bond Analysis</h3>
             <p>Data analysis of government bond yields and market trends.</p>
             <div class="project-actions">
-              <a class="btn btn-chip" href="assets/reports/Government_Bond_Data_Analysis.pdf" target="_blank">View PDF</a>
+              <a class="btn btn-chip" href="assets/reports/Government_Bond_Data_Analysis.xlsx" target="_blank">Download Excel</a>
             </div>
           </article>
 
@@ -442,6 +459,7 @@
               </div>
             </div>
           </div>
+
           <div class="hm-sector sector-tools">
             <span class="sector-label">Tools &amp; Tech &gt;</span>
             <div class="hm-grid tools-grid">
@@ -471,6 +489,7 @@
               <div class="hm-block size-sm bullish-mute"><div class="hm-content"><span class="hm-ticker">CANVA</span></div></div>
             </div>
           </div>
+
           <div class="hm-sector sector-soft">
             <span class="sector-label">Competencies &gt;</span>
             <div class="hm-grid soft-grid">

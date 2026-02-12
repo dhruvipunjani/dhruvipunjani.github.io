@@ -16,7 +16,7 @@
     }, { passive: true });
   }
 
-  // Ball Movement
+  // Ball Movement (Direct follow with slight lag via CSS transition)
   if (cursorBall) {
     window.addEventListener("mousemove", (e) => {
       mouseX = e.clientX;
