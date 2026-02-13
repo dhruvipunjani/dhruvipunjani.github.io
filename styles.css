@@ -102,11 +102,11 @@ a:hover { color: var(--gold); }
 }
 
 /* 2. OVERLAY: INTENSE GREEN + VIGNETTE */
-/* Change opacity in rgba() below to make green brighter/duller */
 .hero-overlay {
   position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-  background: radial-gradient(circle at 50% 50%, rgba(0, 200, 150, 0.15) 0%, rgba(0,0,0,0.95) 90%);
-  mix-blend-mode: hard-light;
+  /* Stronger Green Center (0.5 alpha) -> Dark Edges (Vignette) */
+  background: radial-gradient(circle at center, rgba(0, 200, 150, 0.5) 0%, #000 90%);
+  mix-blend-mode: hard-light; 
   z-index: 1;
 }
 
