@@ -104,9 +104,11 @@ a:hover { color: var(--gold); }
 /* 2. OVERLAY: INTENSE GREEN + VIGNETTE */
 .hero-overlay {
   position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-  /* Stronger Green Center (0.5 alpha) -> Dark Edges (Vignette) */
-  background: radial-gradient(circle at center, rgba(0, 00, 90, 0.5) 0%, #000 90%);
-  mix-blend-mode: hard-light; 
+  
+  /* CHANGE 0.15 to 0.05 below for a much duller look */
+  background: radial-gradient(circle at 50% 50%, rgba(0, 200, 150, 0.05) 0%, rgba(0,0,0,0.95) 90%);
+  
+  mix-blend-mode: hard-light;
   z-index: 1;
 }
 
