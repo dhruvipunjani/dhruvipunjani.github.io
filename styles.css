@@ -106,7 +106,7 @@ a:hover { color: var(--gold); }
   position: absolute; top: 0; left: 0; width: 100%; height: 100%;
   
   /* CHANGE 0.15 to 0.05 below for a much duller look */
-  background: radial-gradient(circle at 50% 50%, rgba(0, 200, 150, 0.05) 0%, rgba(0,0,0,0.95) 90%);
+  background: radial-gradient(circle at 50% 50%, rgba(0, 200, 150, 0.10) 0%, rgba(0,0,0,0.95) 90%);
   
   mix-blend-mode: hard-light;
   z-index: 1;
