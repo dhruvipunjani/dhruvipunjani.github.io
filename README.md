@@ -15,7 +15,7 @@ Or double-click `index.html` to open in the browser (some features may work bett
 ## Contents
 
 - **About** – Summary, CFA L2, FLAME Merit Scholarship, portfolio stats
-- **Experience** – Rigi, Aditya Finoptions, New Cambridge College, Spitze, Pukka Media
+- **Experience** – HDFC Mutual Fund, Sun Financials, Ridhi Enterprises, Rigi, Aditya Finoptions, New Cambridge College, Spitze, Pukka Media
 - **Education** – FLAME University, S.N. Kansagra
 - **Projects** – Portfolio management, Netweb Technologies, Tata Elxsi, ratio analysis, cost sheet, bond analysis, presentations; link to full gallery on Google Sites
 - **Skills** – Research, Bloomberg/Reuters, tools, interests
